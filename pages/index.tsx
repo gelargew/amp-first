@@ -34,6 +34,13 @@ const Home: NextPage<HomeProps> = (props) => (
         <p className="description">
           To get started, edit <code>pages/index.js</code> and save to reload.
         </p>
+        <amp-img
+          alt="A view of the sea"
+          src="https://images.unsplash.com/photo-1669518769047-3b40db6cb169?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"
+          width="900"
+          height="675"
+          layout="responsive"
+        />
 
         <AmpIncludeAmpFxFlyingCarpet />
         <AmpIncludeAmpAd />
